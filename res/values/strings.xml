@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_description">QCAR ImageTargets Sample Application</string>
+    <string name="hello">Hello World, FlowerActivity!</string>
+    <string name="app_name">FlowerAR</string>
+    <string name="welcome">Welcome to Give and Grow</string>
+    <string name="view">View</string>
+    <string name="login">Login</string>
+    <string name="register">Register New Account</string>
+    <string name="profile">Profile</string>
+    <string name="hunt_next_hint">I\'m Here!</string>
+    <string name="hunt_restart">Restart?</string>
+    <string name="hunt_bad_location">No you\'re not!</string>
+    <string name="confirm">Are you sure?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="okay">Okay</string>
+    <string name="obtaining_location">Obtaining current location…</string>
+    <string name="create_hunt">Create Hunt</string>
+    <string name="play">Go Hunting!</string>
+    <string name="save">Save</string>
+    <string name="add_hint">Add Hint</string>
+    <string name="reload">Reload</string>
+    <string name="editable_hunts">Editable Hunts</string>
+    <string name="new_hunt">New Hunt</string>
+    <string name="edit_hint">Edit Hint</string>
+    <string name="hint">Hint</string>
+    <string name="hint_types">Hint Type</string>
+    <string-array name="hint_types_array">
+        <item>Text</item>
+        <item>Image</item>
+        <item>Audio</item>
+        <item>Video</item>
+    </string-array>
+    <string name="create_hint">Create Hint</string>
+    <string name="choose_image">Choose an Image</string>
+    <string name="view_map">View Map</string>
+    <string name="locate">Locate</string>
+    <string name="audio_pause">Pause</string>
+    <string name="audio_stop">Stop</string>
+    <string name="audio_play">Play</string>
+    <string name="choose_audio">Choose Audio File</string>
+    <string name="choose_video">Choose Video File</string>
+    <string name="edit_hunt">Edit Hunt</string>
+    <string name="error_connect">Error connecting to server.</string>
+    <string name="error_create_hunt">Could not create hunt.</string>
+    <string name="toast_edit_success">Edit successful!</string>
+    <string name="toast_edit_failure">Edit failed.</string>
+    <string name="error_download_image">Could not download image.</string>
+    <string name="error_find_image">Could not find image.</string>
+    <string name="choose_icon">Choose Icon</string>
+    <string name="take_photo">Take Photo!</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="error_login">Cannot login!</string>
+    <string name="password_again">Password (again)</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="error_mismatched_passwords">Passwords do not match.</string>
+    <string name="email">Email</string>
+    <string name="available_hunts">Available Hunts</string>
+    <string name="points">Points</string>
+    <string name="hint_image">Hint Image</string>
+    <string name="hunt">Hunt</string>
+    <string name="no_available_hunts">No Available Hunts</string>
+    <string name="last_hint">Last Hint</string>
+    <string name="donate">Donate</string>
+    <string name="gngregister">New to GNG? Register Here</string>
+    <string name="back_to_login">Already Have Account? Login Here</string>
+    <string name="name">Full Name</string>
+    <string name="logout">Log Out</string>
+    <string name="confpassword">Confirm your Password</string>
+    <string name="logo">Logo</string>
+    <string name="please_donate">Please Donate</string>
+    
+</resources>

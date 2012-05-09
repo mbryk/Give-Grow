@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:gravity="left" android:layout_height="wrap_content">
+
+	<TextView android:id="@+id/accounts_login_title"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:textSize="20dip" android:ellipsize="end"
+		android:textColor="?android:attr/textColorPrimary"
+		android:paddingLeft="5dip" android:paddingRight="5dip"
+		android:paddingTop="5dip" android:paddingBottom="5dip" android:text="@string/login" />
+
+	<EditText android:hint="@string/name" android:id="@+id/accounts_login_username"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"></EditText>
+
+	<EditText android:hint="@string/password" android:id="@+id/accounts_login_password"
+		android:password="true" android:layout_width="fill_parent"
+		android:layout_height="wrap_content"></EditText>
+
+	<LinearLayout android:id="@+id/accounts_login_signup"
+		android:orientation="vertical" android:layout_width="fill_parent"
+		android:layout_height="wrap_content">
+
+		<EditText android:hint="@string/password_again" android:id="@+id/accounts_login_password2"
+			android:password="true" android:layout_width="fill_parent"
+			android:layout_height="wrap_content"></EditText>
+
+		<EditText android:hint="@string/email" android:id="@+id/accounts_login_email"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"></EditText>
+
+	</LinearLayout>
+
+	<Button android:id="@+id/accounts_login_button"
+		android:layout_height="wrap_content" android:layout_width="match_parent"
+		android:text="@string/login" android:textSize="18dip"></Button>
+
+</LinearLayout>
